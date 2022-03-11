@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @SpringBootApplication
 @RestController
+@RequestMapping(value = "/app")
 public class PruebaConceptoApplication {
 
 	@GetMapping("/")
